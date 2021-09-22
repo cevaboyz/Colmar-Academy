@@ -23,9 +23,11 @@ footer {
     border-right-width: 24px;
     color: #8A8B8B;
     text-decoration: none;
+    padding-top: 16px;
 }
 
 .copyright {
     color: #8A8B8B;
     padding-left: 24px;
+    padding-top: 16px;
 }
