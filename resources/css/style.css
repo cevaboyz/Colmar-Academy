@@ -1,0 +1,31 @@
+/* STYLESHEET */
+
+html {
+    font-family: Montserrat;
+    background-color: white;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px outset #E7E8E9;
+}
+
+.right_footer {
+    display: flex;
+}
+
+.right_footer h5 a {
+    padding-right: 24px;
+    border-right-width: 24px;
+    color: #8A8B8B;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #8A8B8B;
+    padding-left: 24px;
+}
