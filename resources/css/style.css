@@ -3,7 +3,8 @@
 html {
     font-family: Montserrat;
     background-color: white;
-    font-size: 22px;
+    font-size: 32px;
+    margin: 0;
 }
 
 
@@ -99,6 +100,90 @@ button {
     flex-direction: column;
     align-items: flex-start;
     align-content: center;
+}
+
+
+/* THIRD SECTION */
+
+#manyboxes {
+    background-color: #eaebed;
+    color: #848484;
+    align-items: center;
+    align-self: center;
+}
+
+#manyboxes h2 {
+    color: #4b4b4b;
+    text-align: center;
+    padding-top: 32px;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    padding-top: 32px;
+    margin-left: 36px;
+    margin-right: 36px;
+    justify-content: space-between;
+}
+
+.row1 {
+    display: flex;
+    padding-top: 32px;
+    margin-left: 36px;
+    margin-right: 36px;
+    justify-content: space-between;
+}
+
+.minibox h4 {
+    color: red;
+    justify-content: center;
+    padding-left: 16px;
+    padding-top: 16px;
+    margin: 0;
+}
+
+.minibox .course {
+    color: green;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.minibox h5 {
+    color: red;
+    padding-top: 8px;
+    padding-left: 16px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.minibox1 {
+    background-color: black;
+    margin-right: 32px;
+    margin-left: 36px;
+}
+
+.minibox2 {
+    background-color: black;
+    margin: 0;
+}
+
+.minibox3 {
+    background-color: black;
+    margin-left: 32px;
+    margin-right: 36px;
+}
+
+.minibox {
+    background-color: black;
+}
+
+.minibox img {
+    height: auto;
+    width: auto;
+    margin: 0;
 }
 
 
