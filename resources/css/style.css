@@ -216,6 +216,26 @@
         font-weight: 300;
     }
     
+    .box1 {
+        width: 40%;
+    }
+    
+    .subbox {
+        display: flex;
+    }
+    
+    .subbox1 {
+        width: 100%;
+        background-color: black;
+    }
+    
+    .subbox img {
+        height: auto;
+        width: 35%;
+        margin: 0;
+        padding: 16px;
+    }
+    
     video {
         height: auto;
         width: 100%;
