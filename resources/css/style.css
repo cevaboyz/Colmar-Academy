@@ -1,10 +1,11 @@
             /* STYLESHEET */
             
             html {
+                max-width: 1920px;
                 font-family: Montserrat;
                 background-color: white;
                 font-size: 32px;
-                margin: 0;
+                margin: auto;
             }
             /* HEADER */
             
@@ -460,4 +461,75 @@
             
             h5 {
                 margin: 0;
+            }
+            /*SMALLER RESOLUTIONS */
+            /*FAST CHECKER */
+            
+            @media only screen and (max-width: 480px) {
+                #navbar {
+                    background-color: green;
+                }
+            }
+            /* FOURTH SECTION */
+            
+            @media only screen and (max-width: 480px) {
+                #last {
+                    display: flex
+                }
+            }
+            
+            @media only screen and (max-width: 480px) {
+                #last h2 {
+                    padding-top: 32px;
+                    padding-bottom: 16px;
+                }
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .double_box {
+                    padding-left: 0;
+                }
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .left_last {
+                    width: max-content;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                    align-self: center;
+                }
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .right_last {
+                    display: none;
+                }
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .left_last h4 {
+                    display: none;
+                }
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .left_last h5 {
+                    display: none;
+                }
+            }
+            /* FOOTER */
+            
+            @media only screen and (max-width: 480px) {
+                .right_footer {
+                    display: none;
+                }
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .copyright {
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                    margin-top: 24px;
+                }
             }
