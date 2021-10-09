@@ -470,6 +470,61 @@
                                                                                                                             background-color: green;
                                                                                                                         }
                                                                                                                     }
+                                                                                                                    /* SECOND SECTION */
+                                                                                                                    
+                                                                                                                    @media only screen and (max-width: 480px) {
+                                                                                                                        .left_section_2 {
+                                                                                                                            display: none;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    @media only screen and (max-width: 480px) {
+                                                                                                                        .mainn {
+                                                                                                                            display: none;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    @media only screen and (max-width: 480px) {
+                                                                                                                        .left_section_2 h3 {
+                                                                                                                            display: none;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    @media only screen and (max-width: 480px) {
+                                                                                                                        .left_section_2 h5 {
+                                                                                                                            display: none;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    @media only screen and (max-width: 480px) {
+                                                                                                                        .right_section_2 {
+                                                                                                                            display: flex;
+                                                                                                                            width: 100%;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    @media only screen and (max-width: 480px) {
+                                                                                                                        .subbox {
+                                                                                                                            display: flex;
+                                                                                                                            width: 100%;
+                                                                                                                            flex-direction: column;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    @media only screen and (max-width: 480px) {
+                                                                                                                        .subbox img {
+                                                                                                                            max-width: 100%;
+                                                                                                                            max-height: 100%;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    @media only screen and (max-width: 480px) {
+                                                                                                                        .subbox11 {
+                                                                                                                            display: flex;
+                                                                                                                            width: 100%;
+                                                                                                                            flex-direction: column;
+                                                                                                                        }
+                                                                                                                    }
                                                                                                                     /* THIRD SECTION */
                                                                                                                     
                                                                                                                     @media only screen and (max-width: 480px) {
