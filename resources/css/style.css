@@ -468,12 +468,25 @@
                                                                                                                 @media only screen and (max-width: 480px) {
                                                                                                                     #navbar {
                                                                                                                         background-color: green;
+                                                                                                                        padding: 0;
                                                                                                                     }
                                                                                                                 }
                                                                                                                 /*NAVBAR */
                                                                                                                 
                                                                                                                 @media only screen and (max-width: 480px) {
                                                                                                                     .right {
+                                                                                                                        display: none;
+                                                                                                                    }
+                                                                                                                }
+                                                                                                                
+                                                                                                                @media only screen and (max-width: 480px) {
+                                                                                                                    .c {
+                                                                                                                        display: none;
+                                                                                                                    }
+                                                                                                                }
+                                                                                                                
+                                                                                                                @media only screen and (max-width: 480px) {
+                                                                                                                    .cc {
                                                                                                                         display: none;
                                                                                                                     }
                                                                                                                 }
@@ -598,6 +611,19 @@
                                                                                                                         background-position: center;
                                                                                                                     }
                                                                                                                 }
+                                                                                                                
+                                                                                                                @media only screen and (max-width: 480px) {
+                                                                                                                    .subbox3 {
+                                                                                                                        font-size: 24px;
+                                                                                                                        margin: 0;
+                                                                                                                    }
+                                                                                                                }
+                                                                                                                
+                                                                                                                @media only screen and (max-width: 480px) {
+                                                                                                                    .subbox {
+                                                                                                                        margin: 0;
+                                                                                                                    }
+                                                                                                                }
                                                                                                                 /* THIRD SECTION */
                                                                                                                 
                                                                                                                 @media only screen and (max-width: 480px) {
@@ -668,6 +694,12 @@
                                                                                                                     @media only screen and (max-width: 480px) {
                                                                                                                         #manyboxes h5 {
                                                                                                                             display: none
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    @media only screen and (max-width: 480px) {
+                                                                                                                        #manyboxes h4 {
+                                                                                                                            font-size: 24px;
+                                                                                                                            font-weight: 500;
                                                                                                                         }
                                                                                                                     }
                                                                                                                     /* FOURTH SECTION */
