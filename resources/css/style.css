@@ -579,6 +579,7 @@
                                                                                                                     .right_section_2 {
                                                                                                                         display: flex;
                                                                                                                         width: 100%;
+                                                                                                                        flex-direction: column;
                                                                                                                     }
                                                                                                                 }
                                                                                                                 
@@ -592,8 +593,8 @@
                                                                                                                 
                                                                                                                 @media only screen and (max-width: 480px) {
                                                                                                                     .subbox img {
-                                                                                                                        height: 50%;
-                                                                                                                        width: 100%;
+                                                                                                                        height: max-content;
+                                                                                                                        width: max-content;
                                                                                                                         background-position: center;
                                                                                                                     }
                                                                                                                 }
